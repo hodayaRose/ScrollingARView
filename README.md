@@ -5,7 +5,7 @@ This project demonstrates the seamless integration of AR (Augmented Reality) and
 ![ARView Preview](https://github.com/your_username/ScrollingARView/blob/main/ARViewPreview.jpeg)
 
 ## Features
-
+- This project includes 3 3D models to explore.
 - Load, anchor, and display 3D models in an AR view through `ARViewManager`.
 - Configure, update, and handle touch gestures in AR view through `ARViewContainer`.
 - Browse through available 3D models using a horizontal scroll view in `ScrollViewComponent`.
@@ -43,6 +43,11 @@ open ARScrollingView.xcodeproj
 ### ContentView
 `ContentView` integrates the AR view and the scroll view into a seamless user interface, providing a delightful user experience.
 
+### Notes
+If you want to add more .usdz models to the app all you have to do is: 
+- drag the model to the project (make sure the file is .usdz)
+- add model name to modelNames array
+- EX: I have a 3d model names Hat.usdz I'll add the model to project and then add to modelNames array ["Guitar,"Robot","Hat"]
 
 
 ## Preview
