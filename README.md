@@ -64,5 +64,3 @@ Extend your AR capabilities and SwiftUI interface by exploring and modifying the
 
 
 
- 
-> This is a feature project made by [Your Name], check out more at my [profile](https://github.com/your_username).
